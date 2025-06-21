@@ -1,0 +1,44 @@
+@media (max-width: 1024px) and (min-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url("icons/skextra_icon_white.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(80px);
+        z-index: -1;
+    }
+
+    .hero {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+.te-main{
+    width: 100%;
+}
+
+.fp{
+    width: 100%;
+    margin: 0 16px 0 16px;
+}
+
+.li{
+    width: 99%;
+}
+
+.c-cont{
+    width: 780px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
